@@ -13,3 +13,15 @@
 // ];
 
 // $(".logo_row").append('<img>').addClass('logo-item').attr('src','/img/01.jpg');
+
+
+$(function(){
+
+    $("#box-01").mouseover(function(){
+        $(".text-hover").show();
+    });
+
+    $("#box-01").mouseout(function(){
+        $(".text-hover").hide();
+    });
+});
