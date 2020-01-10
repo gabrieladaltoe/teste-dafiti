@@ -1,8 +1,67 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 1189px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url("./img/01-principal_desktop.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.logo_row{
+    display: grid;
+    -ms-grid-columns: 98px 98px 98px 98px 98px 98px 98px 98px 98px 98px 98px;
+    grid-template-columns: 98px 98px 98px 98px 98px 98px 98px 98px 98px 98px 98px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo-item{
+    height: 98px;
+    width: 98px;
+}
+
+.box_group{
+    display: grid;
+    -ms-grid-columns: 575px 575px;
+    grid-template-columns: 575px 575px;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.box_relative{
+    position: relative;
+}
+
+.box_absolute{
+    position: absolute;
+}
+
+#box-02{
+    margin-top: 341px;
+}
+
+.text-hover{
+    display: none;
+    padding: 19px;
+    color: #fff;
+    background-color: rgba(0,0,0, 0.6);
+    width: 576px;
+    margin: 240px 0 0 0;
 }
